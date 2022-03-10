@@ -1,0 +1,43 @@
+/* Stylesheet for popup window */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+        /* top, transparent color, faked with gradient */
+        linear-gradient(90deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%),
+        /* bottom, image */
+        url("/assets/img/bg.jpg");
+    color: white !important;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.83);
+}
+
+section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 20vw !important;
+    margin-left: 2%;
+    margin-right: 2%;
+}
